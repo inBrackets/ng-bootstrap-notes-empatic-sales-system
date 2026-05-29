@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand d-flex align-items-center gap-2" routerLink="/">
+      <i class="bi bi-graph-up-arrow"></i>
+      Empatic Sales
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="navbarCollapsed = !navbarCollapsed"
+      [attr.aria-expanded]="!navbarCollapsed"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse" [ngbCollapse]="navbarCollapsed">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        @for (module of modules(); track module.id) {
+          <li class="nav-item" ngbDropdown routerLinkActive #rla="routerLinkActive">
+            <a
+              class="nav-link dropdown-toggle px-3"
+              [class.active]="rla.isActive"
+              ngbDropdownToggle
+              role="button"
+              tabindex="0">
+              <i class="bi {{ module.icon }} me-1"></i>{{ module.title }}
+            </a>
+            <div ngbDropdownMenu class="shadow-sm">
+              @for (sub of module.submodules; track sub.id) {
+                <a
+                  ngbDropdownItem
+                  [routerLink]="['/', module.id, sub.id]"
+                  routerLinkActive="active"
+                  (click)="navbarCollapsed = true">
+                  {{ sub.title }}
+                </a>
+              }
+            </div>
+          </li>
+        }
+      </ul>
+    </div>
+  </div>
+</nav>

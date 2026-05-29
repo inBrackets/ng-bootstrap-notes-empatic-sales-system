@@ -1,0 +1,103 @@
+{
+  "id": "fundamentals",
+  "title": "Sales Fundamentals",
+  "icon": "bi-mortarboard-fill",
+  "submodules": [
+    {
+      "id": "sales-mindset",
+      "title": "The Sales Mindset",
+      "jumbotronImage": "https://picsum.photos/seed/sales-mindset/1200/400",
+      "content": "<h2>What Separates Top Performers?</h2><p>The most successful salespeople share one fundamental difference from average performers: they see themselves as <strong>problem solvers</strong>, not pitch-makers. Instead of focusing on what they want (a closed deal), they focus relentlessly on what the customer needs. This shift in perspective is the foundation of empathy-based selling.</p><h3>The Growth Mindset in Sales</h3><p>Carol Dweck's concept of the <strong>growth mindset</strong> is particularly powerful in sales. Top performers view every lost deal as data, every objection as a puzzle, and every \"no\" as a redirect rather than a rejection. They celebrate failures privately as learning opportunities and wins publicly as team achievements.</p><h3>Core Beliefs of the Empathic Salesperson</h3><ul><li><strong>Customers are partners, not obstacles.</strong> Every conversation is a collaboration toward a mutual goal.</li><li><strong>Long-term relationships beat short-term transactions.</strong> A trusted advisor creates recurring revenue; a pushy seller burns bridges.</li><li><strong>Your product is not for everyone.</strong> Knowing when <em>not</em> to sell takes more confidence than knowing when to close.</li><li><strong>Rejection is redirection.</strong> A \"no today\" often becomes a \"yes next quarter\" if you stay professional and add value.</li></ul><h3>Building Resilience</h3><p>Sales is a field of high rejection. The mental habits you build around handling that rejection will determine your longevity. Successful salespeople protect their energy by separating personal identity from professional outcomes, maintaining a consistent daily routine, and investing in continuous learning every week.</p>",
+      "questions": [
+        {
+          "id": "mindset-q1",
+          "text": "What is the primary mindset difference between top and average salespeople?",
+          "answers": [
+            { "id": "a", "text": "Top salespeople work longer hours each day", "isCorrect": false },
+            { "id": "b", "text": "Top salespeople focus on solving customer problems, not their own quota", "isCorrect": true },
+            { "id": "c", "text": "Top salespeople memorize more product features", "isCorrect": false },
+            { "id": "d", "text": "Top salespeople make more cold calls per day", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "mindset-q2",
+          "text": "In a growth mindset, how should a salesperson view a lost deal?",
+          "answers": [
+            { "id": "a", "text": "A sign to find a new job", "isCorrect": false },
+            { "id": "b", "text": "A personal failure to be ashamed of", "isCorrect": false },
+            { "id": "c", "text": "Data and a learning opportunity", "isCorrect": true },
+            { "id": "d", "text": "A reason to offer deeper discounts next time", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "mindset-q3",
+          "text": "Which belief best characterises an empathic salesperson?",
+          "answers": [
+            { "id": "a", "text": "Every potential customer should eventually be converted", "isCorrect": false },
+            { "id": "b", "text": "Your product is not right for everyone, and that is okay", "isCorrect": true },
+            { "id": "c", "text": "Persistence always overcomes any form of rejection", "isCorrect": false },
+            { "id": "d", "text": "Building deep relationships takes too much valuable time", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "mindset-q4",
+          "text": "How should a salesperson interpret a customer saying \"not right now\"?",
+          "answers": [
+            { "id": "a", "text": "End the relationship and move on immediately", "isCorrect": false },
+            { "id": "b", "text": "Pressure the customer harder until they commit", "isCorrect": false },
+            { "id": "c", "text": "A potential future opportunity worth nurturing professionally", "isCorrect": true },
+            { "id": "d", "text": "A sign that the product needs major improvements", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-creation",
+      "title": "Value Creation",
+      "jumbotronImage": "https://picsum.photos/seed/value-creation/1200/400",
+      "content": "<h2>Features vs. Benefits vs. Value</h2><p>A <strong>feature</strong> is what your product does. A <strong>benefit</strong> is how the feature helps the user. <strong>Value</strong> is the measurable or emotional impact of that benefit in the customer's specific context. Most salespeople stop at benefits. Great salespeople translate benefits into tangible business value.</p><p>Example: A project management tool has a <em>feature</em> of real-time collaboration. The <em>benefit</em> is that teams can work together without endless email chains. The <em>value</em> for a specific customer might be: \"Your team of 20 spends 3 hours per week on status emails. This tool would reclaim 60 hours of productivity weekly — that's roughly 4,500 PLN in billable time saved monthly.\"</p><h3>The Value Proposition Canvas</h3><p>Understanding value means understanding the customer's world first. Ask yourself:</p><ul><li>What <strong>jobs</strong> is the customer trying to accomplish?</li><li>What <strong>pains</strong> are preventing them from succeeding?</li><li>What <strong>gains</strong> would make them genuinely delighted?</li></ul><p>Your solution should be positioned as a direct answer to their most pressing pain or their most desired gain — not as a generic feature list.</p><h3>Tailoring the Value Message</h3><p>The same product creates different value for different buyers. A CFO cares about ROI and risk reduction. A CTO cares about integration and scalability. An end-user cares about ease of use and time savings. Always adapt your value narrative to the <strong>specific role</strong> you are speaking with.</p>",
+      "questions": [
+        {
+          "id": "value-q1",
+          "text": "What is the correct hierarchy from least to most impactful in a sales conversation?",
+          "answers": [
+            { "id": "a", "text": "Value → Benefit → Feature", "isCorrect": false },
+            { "id": "b", "text": "Feature → Value → Benefit", "isCorrect": false },
+            { "id": "c", "text": "Feature → Benefit → Value", "isCorrect": true },
+            { "id": "d", "text": "Benefit → Feature → Value", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "value-q2",
+          "text": "A customer asks \"What can your software do?\" The best response focuses on:",
+          "answers": [
+            { "id": "a", "text": "A detailed list of every feature in the product", "isCorrect": false },
+            { "id": "b", "text": "How the software will solve the customer's specific problem and quantify the impact", "isCorrect": true },
+            { "id": "c", "text": "How the software compares to competitors on a feature matrix", "isCorrect": false },
+            { "id": "d", "text": "The technical architecture behind the product", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "value-q3",
+          "text": "When speaking to a CFO, which value angle is most persuasive?",
+          "answers": [
+            { "id": "a", "text": "Ease of use and modern user interface", "isCorrect": false },
+            { "id": "b", "text": "Advanced API integrations and developer experience", "isCorrect": false },
+            { "id": "c", "text": "Return on investment and measurable cost reduction", "isCorrect": true },
+            { "id": "d", "text": "Speed of implementation and onboarding time", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "value-q4",
+          "text": "What is the primary purpose of a Value Proposition Canvas?",
+          "answers": [
+            { "id": "a", "text": "To design the product's marketing brochure layout", "isCorrect": false },
+            { "id": "b", "text": "To document all product features for the sales team", "isCorrect": false },
+            { "id": "c", "text": "To align your solution with customer jobs, pains, and gains", "isCorrect": true },
+            { "id": "d", "text": "To set pricing based on competitor benchmarking", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

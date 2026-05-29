@@ -1,0 +1,61 @@
+.jumbotron-wrapper
+  min-height: 260px
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+  .jumbotron-overlay
+    background: rgba(0, 0, 0, 0.55)
+
+  .jumbotron-content
+    z-index: 2
+
+.lesson-content
+  line-height: 1.85
+  font-size: 1.05rem
+
+  h2
+    font-size: 1.4rem
+    margin-top: 1.5rem
+    margin-bottom: 0.6rem
+
+  h3
+    font-size: 1.15rem
+    margin-top: 1.25rem
+    margin-bottom: 0.5rem
+
+  ul, ol
+    padding-left: 1.5rem
+
+  strong
+    color: #212529
+
+.answer-option
+  border: 2px solid #dee2e6
+  cursor: pointer
+  transition: border-color 0.15s ease, background-color 0.15s ease
+
+  &:hover:not(.answer-correct):not(.answer-wrong)
+    border-color: #0d6efd
+    background-color: #f0f7ff
+
+  &.answer-selected
+    border-color: #0d6efd
+    background-color: #f0f7ff
+
+  &.answer-correct
+    border-color: #198754 !important
+    background-color: #d1e7dd !important
+
+  &.answer-wrong
+    border-color: #dc3545 !important
+    background-color: #f8d7da !important
+
+.answer-letter
+  min-width: 1.6rem
+  font-size: 0.7rem
+
+.question-img
+  max-height: 240px
+  width: auto
+  display: block

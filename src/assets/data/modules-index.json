@@ -1,0 +1,57 @@
+[
+  {
+    "id": "fundamentals",
+    "title": "Sales Fundamentals",
+    "icon": "bi-mortarboard-fill",
+    "file": "assets/data/module-fundamentals.json",
+    "submodules": [
+      { "id": "sales-mindset", "title": "The Sales Mindset" },
+      { "id": "value-creation", "title": "Value Creation" }
+    ]
+  },
+  {
+    "id": "knowing-customer",
+    "title": "Knowing Your Customer",
+    "icon": "bi-people-fill",
+    "file": "assets/data/module-knowing-customer.json",
+    "submodules": [
+      { "id": "buyer-psychology", "title": "Buyer Psychology" },
+      { "id": "needs-analysis", "title": "Needs Analysis" },
+      { "id": "empathy-in-sales", "title": "Empathy in Sales" }
+    ]
+  },
+  {
+    "id": "sales-process",
+    "title": "The Sales Process",
+    "icon": "bi-funnel-fill",
+    "file": "assets/data/module-sales-process.json",
+    "submodules": [
+      { "id": "prospecting", "title": "Prospecting" },
+      { "id": "discovery-call", "title": "The Discovery Call" },
+      { "id": "presenting-solution", "title": "Presenting Solutions" },
+      { "id": "handling-objections", "title": "Handling Objections" }
+    ]
+  },
+  {
+    "id": "closing-retention",
+    "title": "Closing & Retention",
+    "icon": "bi-handshake-fill",
+    "file": "assets/data/module-closing-retention.json",
+    "submodules": [
+      { "id": "closing-techniques", "title": "Closing Techniques" },
+      { "id": "negotiation", "title": "Negotiation" },
+      { "id": "customer-retention", "title": "Customer Retention" }
+    ]
+  },
+  {
+    "id": "analytics",
+    "title": "Sales Analytics",
+    "icon": "bi-bar-chart-line-fill",
+    "file": "assets/data/module-analytics.json",
+    "submodules": [
+      { "id": "key-metrics", "title": "Key Metrics" },
+      { "id": "pipeline-management", "title": "Pipeline Management" },
+      { "id": "data-driven-selling", "title": "Data-Driven Selling" }
+    ]
+  }
+]

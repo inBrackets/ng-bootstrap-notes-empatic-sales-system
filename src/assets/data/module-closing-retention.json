@@ -1,0 +1,151 @@
+{
+  "id": "closing-retention",
+  "title": "Closing & Retention",
+  "icon": "bi-handshake-fill",
+  "submodules": [
+    {
+      "id": "closing-techniques",
+      "title": "Closing Techniques",
+      "jumbotronImage": "https://picsum.photos/seed/closing-techniques/1200/400",
+      "content": "<h2>The Art of Asking for the Sale</h2><p>Many salespeople invest enormous energy in discovery, presentation, and objection handling — and then fail at the very last step: they never actually ask for the business. Closing is simply the natural next step when you have genuinely understood the customer's need and demonstrated that your solution addresses it.</p><h3>The Confidence to Close</h3><p>Closing should feel like a logical conclusion, not a high-pressure moment. If the discovery and presentation stages have gone well, asking for the sale is a service to the customer — you are helping them make a decision that is genuinely in their interest. The anxiety salespeople feel around closing often comes from a subconscious awareness that the earlier stages were incomplete.</p><h3>Effective Closing Techniques</h3><ul><li><strong>The Direct Ask:</strong> Simply ask: \"Based on what we have discussed, are you ready to move forward?\" Simple, honest, effective.</li><li><strong>The Summary Close:</strong> Recap the key value points, then ask: \"Given that this addresses your top three priorities — faster reporting, team visibility, and integration with your CRM — does it make sense to get started?\"</li><li><strong>The Assumptive Close:</strong> Use when signals are strongly positive. \"Let me outline what onboarding would look like for your team...\" This forward-looking language assumes the decision has been made and invites the customer to engage with next steps.</li><li><strong>The Next-Step Close:</strong> Ask: \"What would need to be true for us to agree on next steps by end of this week?\" This gently surfaces any remaining barriers.</li></ul>",
+      "questions": [
+        {
+          "id": "closing-q1",
+          "text": "Why do many salespeople struggle to close, even after effective discovery and presentation?",
+          "answers": [
+            { "id": "a", "text": "Closing requires special legal training most salespeople lack", "isCorrect": false },
+            { "id": "b", "text": "They never actually ask for the business — they omit the final step", "isCorrect": true },
+            { "id": "c", "text": "Customers rarely want to be asked directly for a commitment", "isCorrect": false },
+            { "id": "d", "text": "Modern buyers prefer to close themselves without prompting", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "closing-q2",
+          "text": "The Summary Close works best when:",
+          "answers": [
+            { "id": "a", "text": "You have not had a proper discovery conversation yet", "isCorrect": false },
+            { "id": "b", "text": "You need to negotiate pricing aggressively", "isCorrect": false },
+            { "id": "c", "text": "You can recap specific value points that match the customer's stated priorities", "isCorrect": true },
+            { "id": "d", "text": "The customer has explicitly asked for a discount", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "closing-q3",
+          "text": "The Assumptive Close is appropriate when:",
+          "answers": [
+            { "id": "a", "text": "There are still major unresolved objections on the table", "isCorrect": false },
+            { "id": "b", "text": "Buying signals are strongly positive and the fit is clear", "isCorrect": true },
+            { "id": "c", "text": "The customer has expressed doubt about the price", "isCorrect": false },
+            { "id": "d", "text": "This is the first discovery call with the customer", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "closing-q4",
+          "text": "Closing anxiety in salespeople is often a sign that:",
+          "answers": [
+            { "id": "a", "text": "They are not paid enough commission", "isCorrect": false },
+            { "id": "b", "text": "The discovery or presentation stages were incomplete or unconvincing", "isCorrect": true },
+            { "id": "c", "text": "The customer is inherently difficult to deal with", "isCorrect": false },
+            { "id": "d", "text": "Closing is inherently unethical and should be avoided", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negotiation",
+      "title": "Negotiation",
+      "jumbotronImage": "https://picsum.photos/seed/negotiation/1200/400",
+      "content": "<h2>Negotiation Is Not a Battle</h2><p>The most common misconception about negotiation is that it is a zero-sum game where one side wins and the other loses. Skilled negotiators pursue <strong>mutual value creation</strong> — finding arrangements where both parties achieve outcomes better than their alternatives. This approach leads to stronger deals and longer relationships.</p><h3>Know Your BATNA</h3><p>Before any negotiation, you must know your <strong>BATNA</strong> (Best Alternative to a Negotiated Agreement). This is what you will do if the negotiation fails. Your BATNA determines the floor below which no deal is worth making. A strong BATNA gives you confidence and prevents you from accepting poor terms out of desperation.</p><h3>The Anchor Principle</h3><p>The first number stated in a negotiation strongly influences all subsequent numbers — this is the anchoring effect. Skilled negotiators make the first offer when they have strong information and set it confidently at the high end of a reasonable range. If the other party anchors first, do not accept the anchor — instead, counter decisively and re-anchor.</p><h3>Avoid Discounting on Price Alone</h3><p>When customers ask for a price reduction, resist the urge to simply cut the number. Instead, explore whether you can trade value for value: \"If we adjust the price, we would need to adjust the scope or terms accordingly. What is most important for you in this package?\" This protects your margins and signals the value of every element.</p>",
+      "questions": [
+        {
+          "id": "nego-q1",
+          "text": "What does BATNA stand for?",
+          "answers": [
+            { "id": "a", "text": "Best Approach To Negotiating Arguments", "isCorrect": false },
+            { "id": "b", "text": "Business Agreement Terms and Norms Analysis", "isCorrect": false },
+            { "id": "c", "text": "Best Alternative to a Negotiated Agreement", "isCorrect": true },
+            { "id": "d", "text": "Budget Alignment Through Negotiated Arrangements", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "nego-q2",
+          "text": "Why is knowing your BATNA important before a negotiation?",
+          "answers": [
+            { "id": "a", "text": "It allows you to demand higher prices automatically", "isCorrect": false },
+            { "id": "b", "text": "It sets the floor below which no deal is worth making and prevents poor decisions under pressure", "isCorrect": true },
+            { "id": "c", "text": "It eliminates the need for discovery conversations", "isCorrect": false },
+            { "id": "d", "text": "It is required documentation for enterprise contracts", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "nego-q3",
+          "text": "When a customer asks for a price reduction, the best response is to:",
+          "answers": [
+            { "id": "a", "text": "Immediately agree to a 10–15% discount to maintain the relationship", "isCorrect": false },
+            { "id": "b", "text": "Refuse any discount to protect company policy", "isCorrect": false },
+            { "id": "c", "text": "Explore trading scope or terms for price rather than simply cutting the number", "isCorrect": true },
+            { "id": "d", "text": "Escalate the request to your manager before responding", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "nego-q4",
+          "text": "The anchoring effect in negotiation means:",
+          "answers": [
+            { "id": "a", "text": "You should always let the customer name their price first", "isCorrect": false },
+            { "id": "b", "text": "The first number stated strongly influences all subsequent numbers in the negotiation", "isCorrect": true },
+            { "id": "c", "text": "Anchoring the contract to a fixed date speeds up signature", "isCorrect": false },
+            { "id": "d", "text": "You should anchor your identity to the company's values during the call", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customer-retention",
+      "title": "Customer Retention",
+      "jumbotronImage": "https://picsum.photos/seed/customer-retention/1200/400",
+      "content": "<h2>The Sale Begins After the Contract Is Signed</h2><p>Acquiring a new customer costs five to seven times more than retaining an existing one. Yet most salespeople treat the signed contract as the finish line. Top performers know it is actually the starting line of the most valuable part of the relationship — the <strong>customer success</strong> phase.</p><h3>Proactive Customer Success</h3><p>Customer success means helping your customers achieve the outcomes they purchased your product for — before they have to ask. The most powerful retention strategy is simple: make your customer visibly successful, and document that success for them. A customer who can see and measure their results has every reason to renew.</p><h3>Structured Touchpoints</h3><ul><li><strong>Onboarding:</strong> A structured 30-60-90 day plan ensures the customer achieves first value quickly. Early success dramatically reduces churn.</li><li><strong>Quarterly Business Reviews (QBRs):</strong> Regular strategic meetings review progress against goals, surface new challenges, and strengthen the relationship at the executive level.</li><li><strong>Health Scoring:</strong> Track product usage, support ticket frequency, and engagement to identify at-risk accounts before they churn.</li></ul><h3>Ethical Upselling</h3><p>An upsell is ethical when it genuinely serves the customer's goals. Never upsell something that the customer does not need. Instead, monitor for signals that the customer has outgrown their current package or would benefit from additional capabilities — and bring these up proactively, framed around their business goals.</p>",
+      "questions": [
+        {
+          "id": "retention-q1",
+          "text": "Compared to acquiring a new customer, retaining an existing customer costs approximately:",
+          "answers": [
+            { "id": "a", "text": "The same amount — retention and acquisition have equal costs", "isCorrect": false },
+            { "id": "b", "text": "More — loyal customers demand premium service levels", "isCorrect": false },
+            { "id": "c", "text": "Five to seven times less", "isCorrect": true },
+            { "id": "d", "text": "Twice as much due to ongoing support requirements", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "retention-q2",
+          "text": "What is the most powerful retention strategy?",
+          "answers": [
+            { "id": "a", "text": "Offering annual discounts to prevent customers from leaving", "isCorrect": false },
+            { "id": "b", "text": "Making the customer visibly successful and documenting their results", "isCorrect": true },
+            { "id": "c", "text": "Locking customers into long contracts with penalties for early exit", "isCorrect": false },
+            { "id": "d", "text": "Assigning a dedicated account manager to take all their calls", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "retention-q3",
+          "text": "The purpose of a Quarterly Business Review (QBR) is to:",
+          "answers": [
+            { "id": "a", "text": "Present renewal pricing to the customer's finance team", "isCorrect": false },
+            { "id": "b", "text": "Review progress against goals, surface new challenges, and strengthen executive relationships", "isCorrect": true },
+            { "id": "c", "text": "Introduce new product features unrelated to current usage", "isCorrect": false },
+            { "id": "d", "text": "Collect outstanding invoices from the customer", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "retention-q4",
+          "text": "An ethical upsell is one that:",
+          "answers": [
+            { "id": "a", "text": "Maximises the contract value regardless of the customer's current needs", "isCorrect": false },
+            { "id": "b", "text": "Is timed to coincide with budget cycles rather than customer need", "isCorrect": false },
+            { "id": "c", "text": "Genuinely serves the customer's goals and is framed around their business outcomes", "isCorrect": true },
+            { "id": "d", "text": "Offers a discount on unused features to increase licence count", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

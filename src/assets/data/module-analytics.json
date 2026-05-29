@@ -1,0 +1,151 @@
+{
+  "id": "analytics",
+  "title": "Sales Analytics",
+  "icon": "bi-bar-chart-line-fill",
+  "submodules": [
+    {
+      "id": "key-metrics",
+      "title": "Key Metrics",
+      "jumbotronImage": "https://picsum.photos/seed/key-metrics/1200/400",
+      "content": "<h2>Measuring What Matters</h2><p>\"You can't manage what you can't measure.\" In sales, tracking the right metrics is the difference between intuition-based decisions (which are often wrong) and evidence-based improvements (which compound over time). The challenge is not finding metrics — it is choosing the <strong>right ones</strong> for your specific goals.</p><h3>Revenue Metrics</h3><ul><li><strong>MRR (Monthly Recurring Revenue):</strong> The predictable revenue generated each month. The north star for subscription businesses.</li><li><strong>ARR (Annual Recurring Revenue):</strong> MRR × 12. Used for annual planning and investor reporting.</li><li><strong>ACV (Annual Contract Value):</strong> The average value of contracts over 12 months, used to understand deal size trends.</li><li><strong>Churn Rate:</strong> The percentage of revenue or customers lost in a given period. Directly impacts growth sustainability.</li></ul><h3>Activity Metrics</h3><ul><li><strong>Number of discovery calls held</strong></li><li><strong>Proposals sent per week</strong></li><li><strong>Average response time to inbound leads</strong></li><li><strong>Follow-up sequences completed</strong></li></ul><h3>Conversion Metrics</h3><p>The most revealing metrics track conversion rates between pipeline stages: lead → qualified → demo → proposal → close. Knowing where deals drop off tells you exactly where to focus coaching and process improvements.</p><h3>Win Rate</h3><p>Win rate (closed-won deals ÷ total deals entered) is one of the most important single indicators of sales effectiveness. A rising win rate means your team is getting better at qualification, presentation, or closing — or all three.</p>",
+      "questions": [
+        {
+          "id": "metrics-q1",
+          "text": "What does MRR stand for?",
+          "answers": [
+            { "id": "a", "text": "Maximum Revenue Ratio", "isCorrect": false },
+            { "id": "b", "text": "Monthly Recurring Revenue", "isCorrect": true },
+            { "id": "c", "text": "Monthly Revenue Report", "isCorrect": false },
+            { "id": "d", "text": "Market Reach Rate", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "metrics-q2",
+          "text": "A rising win rate most likely indicates:",
+          "answers": [
+            { "id": "a", "text": "The sales team is spending more hours in the office", "isCorrect": false },
+            { "id": "b", "text": "Improvement in qualification, presentation, or closing effectiveness", "isCorrect": true },
+            { "id": "c", "text": "The company reduced its prices significantly", "isCorrect": false },
+            { "id": "d", "text": "The CRM system was recently upgraded", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "metrics-q3",
+          "text": "Tracking conversion rates between pipeline stages helps you:",
+          "answers": [
+            { "id": "a", "text": "Calculate the total number of sales calls made per month", "isCorrect": false },
+            { "id": "b", "text": "Identify exactly where deals drop off and focus coaching there", "isCorrect": true },
+            { "id": "c", "text": "Determine which salespeople should be promoted", "isCorrect": false },
+            { "id": "d", "text": "Set automatic email follow-up sequences", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "metrics-q4",
+          "text": "Churn Rate is important to track because:",
+          "answers": [
+            { "id": "a", "text": "It tells you how many new features customers want", "isCorrect": false },
+            { "id": "b", "text": "High churn directly undermines growth and long-term revenue sustainability", "isCorrect": true },
+            { "id": "c", "text": "It is required for annual tax filings in most countries", "isCorrect": false },
+            { "id": "d", "text": "It measures how often salespeople miss their activity targets", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pipeline-management",
+      "title": "Pipeline Management",
+      "jumbotronImage": "https://picsum.photos/seed/pipeline-mgmt/1200/400",
+      "content": "<h2>Your Pipeline Is Your Future Revenue</h2><p>A well-managed sales pipeline gives you visibility, predictability, and control. A poorly managed one creates surprises, missed quotas, and reactive firefighting. The goal of pipeline management is to always know where every deal stands, why it is there, and what the next concrete step is.</p><h3>Pipeline Stages</h3><p>A typical B2B pipeline has five to seven stages aligned to the buyer's journey:</p><ol><li><strong>Prospecting</strong> — potential fit identified</li><li><strong>Qualified</strong> — need confirmed, buying authority established</li><li><strong>Discovery</strong> — deep needs analysis completed</li><li><strong>Proposal</strong> — solution and pricing presented</li><li><strong>Negotiation</strong> — terms being finalised</li><li><strong>Closed Won / Closed Lost</strong></li></ol><h3>Deal Velocity</h3><p><strong>Deal velocity</strong> measures how fast deals move through your pipeline. It is calculated as: <em>(Number of Deals × Average Deal Value × Win Rate) ÷ Average Sales Cycle Length</em>. Improving any of these four levers grows revenue without requiring more pipeline volume.</p><h3>Pipeline Hygiene</h3><p>Pipeline hygiene means regularly reviewing and updating deals to ensure the pipeline reflects reality. A common trap is \"zombie deals\" — opportunities that have been sitting without movement for months but have never been formally closed or re-qualified. These inflate forecast numbers and mislead planning. Remove or escalate stale deals aggressively.</p>",
+      "questions": [
+        {
+          "id": "pipeline-q1",
+          "text": "Deal velocity is determined by which four levers?",
+          "answers": [
+            { "id": "a", "text": "Price, discount, team size, and territory", "isCorrect": false },
+            { "id": "b", "text": "Number of deals, average deal value, win rate, and average sales cycle length", "isCorrect": true },
+            { "id": "c", "text": "Lead source, contact seniority, proposal quality, and follow-up speed", "isCorrect": false },
+            { "id": "d", "text": "CRM adoption, activity level, quota attainment, and product training", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "pipeline-q2",
+          "text": "What are \"zombie deals\" in a sales pipeline?",
+          "answers": [
+            { "id": "a", "text": "Deals from customers who previously churned", "isCorrect": false },
+            { "id": "b", "text": "Opportunities that have been stale for months without movement but were never formally closed or re-qualified", "isCorrect": true },
+            { "id": "c", "text": "Deals that are on hold pending budget approval", "isCorrect": false },
+            { "id": "d", "text": "Lost deals that were re-opened after a competitor failure", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "pipeline-q3",
+          "text": "Why is pipeline hygiene important for sales forecasting?",
+          "answers": [
+            { "id": "a", "text": "It ensures each salesperson has the same number of deals to work", "isCorrect": false },
+            { "id": "b", "text": "Stale or inaccurate pipeline data leads to unreliable revenue forecasts and poor decisions", "isCorrect": true },
+            { "id": "c", "text": "It reduces the amount of CRM data that needs to be stored", "isCorrect": false },
+            { "id": "d", "text": "Hygiene reviews count toward salesperson performance bonuses", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "pipeline-q4",
+          "text": "At the 'Qualified' pipeline stage, what should have been confirmed?",
+          "answers": [
+            { "id": "a", "text": "The contract has been reviewed by the customer's legal team", "isCorrect": false },
+            { "id": "b", "text": "The customer's need and buying authority have been established", "isCorrect": true },
+            { "id": "c", "text": "A signed Letter of Intent has been received", "isCorrect": false },
+            { "id": "d", "text": "A full product demo has been delivered", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-driven-selling",
+      "title": "Data-Driven Selling",
+      "jumbotronImage": "https://picsum.photos/seed/data-driven/1200/400",
+      "content": "<h2>Turning Data Into Decisions</h2><p>Data alone does not improve sales performance — <strong>decisions and actions based on data</strong> do. The best sales organisations build a culture where every rep, manager, and leader regularly consults data before making decisions, tests hypotheses deliberately, and adjusts based on evidence rather than opinion.</p><h3>Using Data for Coaching</h3><p>Data-driven sales managers coach with specificity. Instead of \"you need to be more confident in closing,\" they say \"your win rate from proposal to close is 22%, while the team average is 38% — let's review your last five proposal conversations together and identify what's different.\" Specific, data-backed coaching is faster and more effective than generic motivation.</p><h3>A/B Testing Your Messaging</h3><p>Every outbound email, subject line, and call opener can be tested. A/B testing in sales means sending two versions of a message to similar prospect groups and measuring which performs better on open rate, reply rate, or meeting booked rate. Small improvements in email response rates compound significantly at scale — a 2% improvement in reply rate across 500 prospects per week generates 10 additional conversations monthly.</p><h3>Forecasting Accuracy</h3><p>Accurate forecasting requires honest pipeline data and consistent stage definitions. Common approaches include <strong>weighted pipeline forecasting</strong> (each deal value is multiplied by the win probability of its stage) and <strong>time-based forecasting</strong> (using historical close rates for deals of similar age and size). The most accurate forecasts combine both methods with regular manager override based on qualitative deal knowledge.</p>",
+      "questions": [
+        {
+          "id": "data-q1",
+          "text": "What distinguishes data-driven coaching from generic motivation?",
+          "answers": [
+            { "id": "a", "text": "Data-driven coaching relies on annual performance reviews", "isCorrect": false },
+            { "id": "b", "text": "Specific, measurable insights allow coaching to target the exact stage or behaviour that needs improvement", "isCorrect": true },
+            { "id": "c", "text": "Data-driven coaching replaces the need for one-on-one manager conversations", "isCorrect": false },
+            { "id": "d", "text": "It focuses exclusively on activity metrics rather than outcomes", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "data-q2",
+          "text": "A/B testing in sales outreach involves:",
+          "answers": [
+            { "id": "a", "text": "Comparing two competing CRM systems", "isCorrect": false },
+            { "id": "b", "text": "Sending two message variants to similar prospect groups and measuring which performs better", "isCorrect": true },
+            { "id": "c", "text": "Having two salespeople call the same prospect simultaneously", "isCorrect": false },
+            { "id": "d", "text": "Testing the product with two different customer segments at once", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "data-q3",
+          "text": "Weighted pipeline forecasting works by:",
+          "answers": [
+            { "id": "a", "text": "Multiplying total pipeline value by the average discount offered", "isCorrect": false },
+            { "id": "b", "text": "Multiplying each deal's value by the win probability assigned to its pipeline stage", "isCorrect": true },
+            { "id": "c", "text": "Adding up only deals that have been verbally committed by the customer", "isCorrect": false },
+            { "id": "d", "text": "Dividing total pipeline by the number of active salespeople", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "data-q4",
+          "text": "The most accurate sales forecasts typically:",
+          "answers": [
+            { "id": "a", "text": "Rely solely on the CRM probability field without manager input", "isCorrect": false },
+            { "id": "b", "text": "Use only historical data without accounting for current market conditions", "isCorrect": false },
+            { "id": "c", "text": "Combine quantitative methods with manager override based on qualitative deal knowledge", "isCorrect": true },
+            { "id": "d", "text": "Are generated automatically by AI without human review", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

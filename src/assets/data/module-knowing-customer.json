@@ -1,0 +1,151 @@
+{
+  "id": "knowing-customer",
+  "title": "Knowing Your Customer",
+  "icon": "bi-people-fill",
+  "submodules": [
+    {
+      "id": "buyer-psychology",
+      "title": "Buyer Psychology",
+      "jumbotronImage": "https://picsum.photos/seed/buyer-psychology/1200/400",
+      "content": "<h2>How People Actually Make Decisions</h2><p>Nobel Prize-winning psychologist Daniel Kahneman described two modes of thinking: <strong>System 1</strong> (fast, emotional, automatic) and <strong>System 2</strong> (slow, logical, deliberate). The vast majority of purchasing decisions are driven by System 1 and later justified by System 2. This means emotion starts the sale — logic closes it.</p><h3>Key Cognitive Biases in Buying</h3><ul><li><strong>Anchoring:</strong> The first number a customer hears shapes all subsequent judgements. Present your full-value offer first, before any discussion of price.</li><li><strong>Social Proof:</strong> Customers trust the behaviour of others like them. Case studies and testimonials from similar companies are among the most powerful selling tools.</li><li><strong>Loss Aversion:</strong> People feel the pain of losing something roughly twice as strongly as they feel the pleasure of gaining the same thing. Frame your offer in terms of what the customer stands to <em>lose</em> by not acting.</li><li><strong>Reciprocity:</strong> When you give genuine value first — insights, advice, or a useful resource — customers feel a natural pull to return the favour.</li></ul><h3>Practical Implications</h3><p>Understanding these biases is not about manipulation; it is about communication. When you align your message with how the brain naturally works, you reduce friction and help the customer reach the decision that is truly best for them faster and more confidently.</p>",
+      "questions": [
+        {
+          "id": "psych-q1",
+          "text": "According to Kahneman's model, which system drives most purchasing decisions?",
+          "answers": [
+            { "id": "a", "text": "System 2 — slow, logical, deliberate thinking", "isCorrect": false },
+            { "id": "b", "text": "System 1 — fast, emotional, automatic thinking", "isCorrect": true },
+            { "id": "c", "text": "Both systems contribute equally in every purchase", "isCorrect": false },
+            { "id": "d", "text": "Neither system — buying is purely rational", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "psych-q2",
+          "text": "The anchoring bias suggests that a salesperson should:",
+          "answers": [
+            { "id": "a", "text": "Always start with the lowest possible price to avoid shocking the customer", "isCorrect": false },
+            { "id": "b", "text": "Never mention price until the very end of the conversation", "isCorrect": false },
+            { "id": "c", "text": "Present the full-value offer first to set a high reference point", "isCorrect": true },
+            { "id": "d", "text": "Let the customer name a price before responding", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "psych-q3",
+          "text": "Loss aversion means customers are most motivated by:",
+          "answers": [
+            { "id": "a", "text": "Gaining a modest benefit", "isCorrect": false },
+            { "id": "b", "text": "Avoiding a loss of equivalent magnitude", "isCorrect": true },
+            { "id": "c", "text": "The promise of future price discounts", "isCorrect": false },
+            { "id": "d", "text": "Receiving complimentary product trials", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "psych-q4",
+          "text": "How does the reciprocity principle help a salesperson?",
+          "answers": [
+            { "id": "a", "text": "It justifies asking for large upfront payments", "isCorrect": false },
+            { "id": "b", "text": "Providing genuine value first creates a natural inclination to return the favour", "isCorrect": true },
+            { "id": "c", "text": "It means the customer must always match your discount offers", "isCorrect": false },
+            { "id": "d", "text": "It removes the need for follow-up after a meeting", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "needs-analysis",
+      "title": "Needs Analysis",
+      "jumbotronImage": "https://picsum.photos/seed/needs-analysis/1200/400",
+      "content": "<h2>Diagnosing Before Prescribing</h2><p>A doctor who prescribes medication before diagnosing the patient is dangerous. The same principle applies to sales. Jumping into your pitch before truly understanding the customer's situation is one of the most common — and costly — mistakes in selling.</p><h3>The SPIN Framework</h3><p>Neil Rackham's research into thousands of successful sales calls identified four types of questions that drive outcomes:</p><ul><li><strong>Situation</strong> questions uncover the customer's current state: \"How is your team currently managing this process?\"</li><li><strong>Problem</strong> questions reveal pain points: \"What challenges are you running into with that approach?\"</li><li><strong>Implication</strong> questions amplify the cost of the problem: \"How much time does your team lose each week because of that issue?\"</li><li><strong>Need-Payoff</strong> questions get the customer to articulate the value of solving the problem: \"If you could eliminate that bottleneck, what would that mean for your team?\"</li></ul><h3>Active Listening</h3><p>Asking great questions is only half the equation. <strong>Active listening</strong> means fully focusing on the customer's words, resisting the urge to formulate your response while they are speaking, and reflecting back what you heard to confirm understanding. Customers who feel genuinely heard are far more likely to trust you and move forward.</p>",
+      "questions": [
+        {
+          "id": "needs-q1",
+          "text": "In the SPIN framework, which question type amplifies the cost of a problem?",
+          "answers": [
+            { "id": "a", "text": "Situation questions", "isCorrect": false },
+            { "id": "b", "text": "Problem questions", "isCorrect": false },
+            { "id": "c", "text": "Implication questions", "isCorrect": true },
+            { "id": "d", "text": "Need-Payoff questions", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "needs-q2",
+          "text": "\"If you could eliminate that bottleneck, what would it mean for your team?\" is an example of which SPIN question?",
+          "answers": [
+            { "id": "a", "text": "Situation", "isCorrect": false },
+            { "id": "b", "text": "Problem", "isCorrect": false },
+            { "id": "c", "text": "Implication", "isCorrect": false },
+            { "id": "d", "text": "Need-Payoff", "isCorrect": true }
+          ]
+        },
+        {
+          "id": "needs-q3",
+          "text": "Active listening primarily means:",
+          "answers": [
+            { "id": "a", "text": "Taking detailed notes on every word the customer says", "isCorrect": false },
+            { "id": "b", "text": "Preparing your response while the customer is still speaking", "isCorrect": false },
+            { "id": "c", "text": "Fully focusing on the customer and confirming understanding by reflecting back what was heard", "isCorrect": true },
+            { "id": "d", "text": "Interrupting politely to keep the conversation on track", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "needs-q4",
+          "text": "Why is diagnosing before prescribing so important in sales?",
+          "answers": [
+            { "id": "a", "text": "It delays the pitch so the customer feels more comfortable", "isCorrect": false },
+            { "id": "b", "text": "It ensures your solution genuinely addresses the customer's real needs", "isCorrect": true },
+            { "id": "c", "text": "It gives you time to memorise your product brochure", "isCorrect": false },
+            { "id": "d", "text": "It is required by most sales compliance regulations", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empathy-in-sales",
+      "title": "Empathy in Sales",
+      "jumbotronImage": "https://picsum.photos/seed/empathy-sales/1200/400",
+      "content": "<h2>The Difference Between Empathy and Sympathy</h2><p>Empathy is not about feeling sorry for your customer. It is the ability to <strong>understand and share their perspective</strong> — to see the world through their eyes, feel the pressures they face, and communicate in a way that shows you genuinely get it. Sympathy creates distance; empathy creates connection.</p><h3>Emotional Intelligence in Sales</h3><p>Emotional intelligence (EQ) has four components that matter deeply in sales conversations:</p><ul><li><strong>Self-awareness:</strong> Recognising when your own emotions (frustration, anxiety, excitement) might be affecting your behaviour.</li><li><strong>Self-regulation:</strong> Managing those emotions so they do not derail the conversation.</li><li><strong>Social awareness:</strong> Reading the emotional state of your customer and responding appropriately.</li><li><strong>Relationship management:</strong> Using emotional insights to guide the conversation toward a positive outcome for both parties.</li></ul><h3>Building Rapport Through Mirroring</h3><p>One of the most effective rapport-building techniques is <strong>mirroring</strong> — subtly matching the customer's communication style, pace, vocabulary, and even body language. Research by psychologist Chris Voss shows that repeating the last 3 words of what someone just said (verbal mirroring) encourages them to continue sharing and deepens trust significantly.</p>",
+      "questions": [
+        {
+          "id": "empathy-q1",
+          "text": "What is the key difference between empathy and sympathy in a sales context?",
+          "answers": [
+            { "id": "a", "text": "Sympathy is more professional than empathy", "isCorrect": false },
+            { "id": "b", "text": "Empathy means understanding the customer's perspective; sympathy creates distance", "isCorrect": true },
+            { "id": "c", "text": "They mean the same thing in a business setting", "isCorrect": false },
+            { "id": "d", "text": "Sympathy is required for closing; empathy is only for discovery", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "empathy-q2",
+          "text": "Which EQ component involves recognising how your own emotions affect your sales behaviour?",
+          "answers": [
+            { "id": "a", "text": "Social awareness", "isCorrect": false },
+            { "id": "b", "text": "Relationship management", "isCorrect": false },
+            { "id": "c", "text": "Self-awareness", "isCorrect": true },
+            { "id": "d", "text": "Self-regulation", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "empathy-q3",
+          "text": "Verbal mirroring, as described by Chris Voss, involves:",
+          "answers": [
+            { "id": "a", "text": "Repeating the customer's full sentence back to them word for word", "isCorrect": false },
+            { "id": "b", "text": "Repeating the last 3 words of what the customer just said", "isCorrect": true },
+            { "id": "c", "text": "Paraphrasing the customer's main point at the end of the call", "isCorrect": false },
+            { "id": "d", "text": "Using the same hand gestures as the customer", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "empathy-q4",
+          "text": "Which statement best describes how empathy improves sales outcomes?",
+          "answers": [
+            { "id": "a", "text": "It makes customers feel obligated to buy out of politeness", "isCorrect": false },
+            { "id": "b", "text": "It helps salespeople manipulate emotions more effectively", "isCorrect": false },
+            { "id": "c", "text": "It builds genuine trust, making customers more likely to share real concerns and move forward", "isCorrect": true },
+            { "id": "d", "text": "It eliminates the need for a structured sales process", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

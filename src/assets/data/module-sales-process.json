@@ -1,0 +1,199 @@
+{
+  "id": "sales-process",
+  "title": "The Sales Process",
+  "icon": "bi-funnel-fill",
+  "submodules": [
+    {
+      "id": "prospecting",
+      "title": "Prospecting",
+      "jumbotronImage": "https://picsum.photos/seed/prospecting/1200/400",
+      "content": "<h2>Finding the Right People</h2><p>Prospecting is the systematic process of identifying potential customers who are likely to benefit from your solution. Effective prospecting is not about reaching everyone — it is about reaching the <strong>right people at the right time</strong> with the right message.</p><h3>Define Your Ideal Customer Profile (ICP)</h3><p>Before prospecting, you must know exactly who you are looking for. An ICP defines the characteristics of companies and individuals that get the highest value from your product and are most likely to buy it. Key ICP dimensions include:</p><ul><li><strong>Company:</strong> Industry, size, revenue, technology stack, growth stage</li><li><strong>Person:</strong> Role, seniority, responsibilities, pain points, buying authority</li><li><strong>Behavioural signals:</strong> Recent funding, headcount growth, job postings, technology changes</li></ul><h3>Inbound vs. Outbound Prospecting</h3><p><strong>Inbound</strong> prospects have already shown interest — they downloaded a guide, attended a webinar, or requested a demo. They are typically warmer and faster to close. <strong>Outbound</strong> prospects have not shown interest yet; you are interrupting their day, which means your relevance and timing must be exceptional.</p><h3>High-Impact Channels</h3><p>The most effective prospecting channels today are: <em>warm referrals</em> from existing customers, <em>LinkedIn</em> for personalised outreach, <em>targeted email sequences</em> with research-backed personalisation, and <em>community engagement</em> where your buyers spend time.</p>",
+      "questions": [
+        {
+          "id": "prospect-q1",
+          "text": "What does ICP stand for in a sales context?",
+          "answers": [
+            { "id": "a", "text": "Initial Contact Procedure", "isCorrect": false },
+            { "id": "b", "text": "Ideal Customer Profile", "isCorrect": true },
+            { "id": "c", "text": "Inbound Call Protocol", "isCorrect": false },
+            { "id": "d", "text": "Integrated CRM Platform", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "prospect-q2",
+          "text": "Which type of prospect typically closes faster and requires less effort to convince?",
+          "answers": [
+            { "id": "a", "text": "Cold outbound prospects discovered through a database", "isCorrect": false },
+            { "id": "b", "text": "Inbound prospects who have already shown interest", "isCorrect": true },
+            { "id": "c", "text": "Prospects found via social media ads", "isCorrect": false },
+            { "id": "d", "text": "All prospects require the same amount of effort", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "prospect-q3",
+          "text": "Which is generally the highest-quality source of new prospects?",
+          "answers": [
+            { "id": "a", "text": "Purchased lead lists from third-party vendors", "isCorrect": false },
+            { "id": "b", "text": "Mass email campaigns to generic databases", "isCorrect": false },
+            { "id": "c", "text": "Warm referrals from satisfied existing customers", "isCorrect": true },
+            { "id": "d", "text": "Trade show badge scans", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "prospect-q4",
+          "text": "A key behavioural signal that a company may be ready to buy is:",
+          "answers": [
+            { "id": "a", "text": "The company recently celebrated its anniversary", "isCorrect": false },
+            { "id": "b", "text": "Recent funding round, headcount growth, or relevant new job postings", "isCorrect": true },
+            { "id": "c", "text": "Their CEO published a blog post", "isCorrect": false },
+            { "id": "d", "text": "The company updated its website design", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discovery-call",
+      "title": "The Discovery Call",
+      "jumbotronImage": "https://picsum.photos/seed/discovery-call/1200/400",
+      "content": "<h2>The Most Important Conversation in Sales</h2><p>The discovery call is your opportunity to deeply understand the customer's world before proposing anything. Done well, it transforms you from a vendor into a trusted advisor. Done poorly, it is just another pitch the customer has heard before.</p><h3>The Goal: Understand Before You Recommend</h3><p>Your only agenda in discovery is to understand:</p><ul><li>What situation the customer is currently in</li><li>What pain or challenge they are experiencing</li><li>The business impact of that challenge (cost, time, risk, opportunity)</li><li>What success looks like for them</li><li>Who is involved in making the decision</li></ul><h3>Structuring the Call</h3><p>A well-structured discovery call typically follows this arc:</p><ol><li><strong>Set the agenda</strong> — confirm how long you have and what you both want to achieve</li><li><strong>Ask situation questions</strong> — understand the current state</li><li><strong>Explore pain and impact</strong> — use SPIN-style questions to surface real problems</li><li><strong>Understand the desired future state</strong> — what would winning look like for them?</li><li><strong>Qualify decision-making</strong> — who else is involved? What is the timeline and budget range?</li><li><strong>Agree on next steps</strong> — never end a call without a clear, concrete next action</li></ol><p>A common qualification framework is <strong>BANT</strong> (Budget, Authority, Need, Timeline), though modern sales increasingly prioritises Need and Authority over budget questions early in the process.</p>",
+      "questions": [
+        {
+          "id": "discovery-q1",
+          "text": "What is the primary goal of a discovery call?",
+          "answers": [
+            { "id": "a", "text": "To present your product features and pricing as quickly as possible", "isCorrect": false },
+            { "id": "b", "text": "To deeply understand the customer's situation, pain, and desired outcomes before recommending anything", "isCorrect": true },
+            { "id": "c", "text": "To establish dominance in the conversation", "isCorrect": false },
+            { "id": "d", "text": "To qualify budget above all other factors", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "discovery-q2",
+          "text": "What does BANT stand for?",
+          "answers": [
+            { "id": "a", "text": "Business, Approach, Need, Timeline", "isCorrect": false },
+            { "id": "b", "text": "Budget, Authority, Need, Timeline", "isCorrect": true },
+            { "id": "c", "text": "Buyer, Agenda, Negotiation, Terms", "isCorrect": false },
+            { "id": "d", "text": "Budget, Analysis, Network, Trust", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "discovery-q3",
+          "text": "How should a discovery call always end?",
+          "answers": [
+            { "id": "a", "text": "With the salesperson summarising their product benefits", "isCorrect": false },
+            { "id": "b", "text": "With a clear, concrete agreed next step for both parties", "isCorrect": true },
+            { "id": "c", "text": "By asking the customer to sign a letter of intent", "isCorrect": false },
+            { "id": "d", "text": "With the salesperson promising to send a detailed proposal immediately", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "discovery-q4",
+          "text": "Why do modern sales professionals prioritise Need and Authority over Budget early in the process?",
+          "answers": [
+            { "id": "a", "text": "Budget questions are considered rude in modern selling", "isCorrect": false },
+            { "id": "b", "text": "Understanding real need and decision-making authority creates more valuable conversations and builds trust faster", "isCorrect": true },
+            { "id": "c", "text": "Budget is always determined by the legal team, not the buyer", "isCorrect": false },
+            { "id": "d", "text": "It is a legal requirement to avoid discussing money upfront", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "presenting-solution",
+      "title": "Presenting Solutions",
+      "jumbotronImage": "https://picsum.photos/seed/presenting-solution/1200/400",
+      "content": "<h2>From Presentation to Story</h2><p>The best sales presentations are not slide decks — they are <strong>stories</strong>. Stories activate more parts of the brain than data alone, create emotional engagement, and are remembered far longer. Structure your presentation around the customer's journey, not your product's journey.</p><h3>The Problem-Solution-Benefit Framework</h3><p>Structure your presentation in three acts:</p><ol><li><strong>The Problem (Before):</strong> Paint a vivid picture of the customer's current pain. Use their own words from discovery. This shows you listened and creates relevance.</li><li><strong>The Solution (Bridge):</strong> Introduce your product as the bridge between where they are and where they want to be. Show only the features that solve <em>their specific problems</em>.</li><li><strong>The Benefit (After):</strong> Describe the transformed future state. Use concrete metrics where possible: \"Teams like yours typically reduce reporting time by 40% within the first month.\"</li></ol><h3>Demo Best Practices</h3><p>When running a product demonstration:</p><ul><li>Open with a customer-centric framing: \"Let me show you how this would work for your specific use case.\"</li><li>Show the workflow the customer described, not a generic tour</li><li>Pause frequently to check in: \"Does this address what you described earlier?\"</li><li>Keep it focused — one powerful, relevant demonstration beats ten impressive but irrelevant features</li></ul>",
+      "questions": [
+        {
+          "id": "present-q1",
+          "text": "Why are stories more effective than data alone in sales presentations?",
+          "answers": [
+            { "id": "a", "text": "Stories are easier to prepare than data-heavy slides", "isCorrect": false },
+            { "id": "b", "text": "Stories activate more parts of the brain, create emotional engagement, and are remembered longer", "isCorrect": true },
+            { "id": "c", "text": "Data confuses most customers, so stories are a safer choice", "isCorrect": false },
+            { "id": "d", "text": "Storytelling is required by most B2B sales compliance standards", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "present-q2",
+          "text": "In the Problem-Solution-Benefit framework, what comes first?",
+          "answers": [
+            { "id": "a", "text": "A showcase of all product features", "isCorrect": false },
+            { "id": "b", "text": "A description of the company's history and credentials", "isCorrect": false },
+            { "id": "c", "text": "A vivid picture of the customer's current pain using their own words", "isCorrect": true },
+            { "id": "d", "text": "Pricing and commercial terms", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "present-q3",
+          "text": "During a product demo, what should you show the customer?",
+          "answers": [
+            { "id": "a", "text": "Every feature in the product to demonstrate its full value", "isCorrect": false },
+            { "id": "b", "text": "Only the workflows and features that solve the customer's specific problem", "isCorrect": true },
+            { "id": "c", "text": "A standardised demo script used for all customers", "isCorrect": false },
+            { "id": "d", "text": "Competitor comparison slides first, then your product", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "present-q4",
+          "text": "What is the purpose of pausing and checking in during a demo?",
+          "answers": [
+            { "id": "a", "text": "To slow down and appear more thoughtful", "isCorrect": false },
+            { "id": "b", "text": "To give the customer time to check their emails", "isCorrect": false },
+            { "id": "c", "text": "To confirm the demo is addressing the customer's stated needs and to invite dialogue", "isCorrect": true },
+            { "id": "d", "text": "To fill silence when the product has no more features to show", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "handling-objections",
+      "title": "Handling Objections",
+      "jumbotronImage": "https://picsum.photos/seed/objections/1200/400",
+      "content": "<h2>Objections Are Not Obstacles — They Are Invitations</h2><p>When a customer raises an objection, most salespeople feel the urge to argue. Top performers resist that instinct. An objection is actually a signal that the customer is <strong>engaged</strong> — they are thinking seriously about your offer and have a specific concern that needs addressing. Silence and indifference are far more dangerous than objections.</p><h3>The LAER Framework</h3><p>A disciplined approach to objection handling follows four steps:</p><ol><li><strong>Listen</strong> — fully hear the objection without interrupting. Let the customer finish.</li><li><strong>Acknowledge</strong> — validate their concern: \"That is a fair point, and it comes up often.\" This reduces defensiveness immediately.</li><li><strong>Explore</strong> — ask a question to understand the root cause: \"Can you tell me more about what is driving that concern?\" Most surface objections hide deeper ones.</li><li><strong>Respond</strong> — only now, having truly understood the objection, provide a targeted, evidence-based response.</li></ol><h3>Common Objections and Reframes</h3><ul><li><strong>\"It is too expensive.\"</strong> Reframe: \"Let's look at the cost of the problem you described — is the investment proportionate to the value of solving it?\"</li><li><strong>\"We are happy with our current solution.\"</strong> Reframe: \"What would need to change about your current approach for you to consider an alternative?\"</li><li><strong>\"Now is not the right time.\"</strong> Reframe: \"What would need to be true for the timing to be right? Let's plan for that.\"</li></ul>",
+      "questions": [
+        {
+          "id": "objection-q1",
+          "text": "Why should a salesperson welcome objections rather than fear them?",
+          "answers": [
+            { "id": "a", "text": "Objections mean the customer wants a discount", "isCorrect": false },
+            { "id": "b", "text": "Objections are a sign of engagement — the customer is seriously considering the offer", "isCorrect": true },
+            { "id": "c", "text": "Objections indicate the deal is almost closed", "isCorrect": false },
+            { "id": "d", "text": "Objections give the salesperson a chance to talk more", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "objection-q2",
+          "text": "In the LAER framework, what is the correct second step after listening?",
+          "answers": [
+            { "id": "a", "text": "Respond immediately with a counter-argument", "isCorrect": false },
+            { "id": "b", "text": "Acknowledge the concern to reduce defensiveness", "isCorrect": true },
+            { "id": "c", "text": "Explore with a deeper question", "isCorrect": false },
+            { "id": "d", "text": "Redirect the conversation to your product's strengths", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "objection-q3",
+          "text": "The Explore step in LAER is critical because:",
+          "answers": [
+            { "id": "a", "text": "It gives you time to think of a rebuttal", "isCorrect": false },
+            { "id": "b", "text": "Most surface objections hide deeper, more important concerns", "isCorrect": true },
+            { "id": "c", "text": "It signals to the customer that you are not prepared", "isCorrect": false },
+            { "id": "d", "text": "Customers always say exactly what they mean on the first try", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "objection-q4",
+          "text": "When a customer says \"We are happy with our current solution,\" the best reframe is:",
+          "answers": [
+            { "id": "a", "text": "\"Our product is objectively better than what you use now.\"", "isCorrect": false },
+            { "id": "b", "text": "\"Can I send you a comparison document showing our advantages?\"", "isCorrect": false },
+            { "id": "c", "text": "\"What would need to change about your current approach for you to consider an alternative?\"", "isCorrect": true },
+            { "id": "d", "text": "\"Let me offer you a significant discount to make the switch worth it.\"", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
